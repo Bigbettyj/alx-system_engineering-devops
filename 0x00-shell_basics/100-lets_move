@@ -1,2 +1,2 @@
 #!/bin/bash
-mv ./*[ABC]* /tmp/u
+find ./*[ABC]* -maxdepth 1 -type f -exec mv /tmp/u
